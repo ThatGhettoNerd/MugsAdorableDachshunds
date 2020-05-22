@@ -232,5 +232,46 @@ footer .row {
     margin-top: 75px;
     background: #3F3F3F;
     color: #F5F5F5;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer h3  {
+    font-size: 30px;
+}
+footer h3,
+footer ul li {
+    margin: 20px 0;
+}
+
+footer p {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.footer-contact {
+    text-align: left;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    opacity: .5;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.footer-links ul li a:hover {
+    color:#4F9289;
+    opacity:1;
 }
 
